@@ -39,6 +39,7 @@ namespace CommandLineParser
 
     void print_settings(my_settings &s)
     {
+        std::cout << std::boolalpha;
         std::cout << "[Flags]\n";
         std::cout << "help: " << s.help << "\n";
         std::cout << "verbose: " << s.verbose << "\n";

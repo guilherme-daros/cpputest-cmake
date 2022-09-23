@@ -2,3 +2,5 @@ cmake_*
 CMakeCache.txt
 CMakeFiles
 Makefile
+
+lib*.a

@@ -2,7 +2,7 @@
     "configurations": [
         {
             "includePath": [
-                "${workspaceFolder}/CommandLineParser"
+                "${workspaceFolder}/lib/**"
             ],
             "intelliSenseMode": "linux-gcc-x64",
             "compilerPath": "/usr/bin/gcc",
