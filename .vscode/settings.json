@@ -48,5 +48,13 @@
         "streambuf": "cpp",
         "cfenv": "cpp",
         "typeinfo": "cpp"
+    },
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
     }
 }
