@@ -24,5 +24,5 @@ target_link_libraries( UnitTests PUBLIC
 
 target_include_directories(${PROJECTNAME}  PUBLIC "${PROJECT_SOURCE_DIR}"
                                         "${PROJECT_SOURCE_DIR}/lib/CppUTest/include"
-                                        "${PROJECT_SOURCE_DIR}/lib/CommandLineParser/include"
+                                        "${PROJECT_SOURCE_DIR}/lib/CommandLineParser"
                                         )
