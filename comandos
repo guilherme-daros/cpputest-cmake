@@ -3,3 +3,6 @@ cmake -G Ninja -B ./build -S .
 
 # Builda o projeto
 cmake --build ./build
+
+# Roda os testes
+build/UnitTests -c -v

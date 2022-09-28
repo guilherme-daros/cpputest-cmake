@@ -82,4 +82,17 @@ namespace CommandLineParser
         return settings;
     }
 
+    bool operator==(my_settings &stt1, my_settings &stt2)
+    {
+        return stt1.help == stt2.help &&
+               stt1.verbose == stt2.verbose &&
+               stt1.infile == stt2.infile &&
+               stt1.outfile == stt2.outfile &&
+               stt1.value == stt2.value;
+    }
+    bool operator!=(my_settings &stt1, my_settings &stt2)
+    {
+        return !(stt1 == stt2);
+    }
+
 } // namespace cl_parser

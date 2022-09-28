@@ -13,3 +13,4 @@
 # )
 
 add_subdirectory(TestExample)
+add_subdirectory(TestCommandLineParser)

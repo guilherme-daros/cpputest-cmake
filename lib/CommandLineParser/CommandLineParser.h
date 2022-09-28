@@ -19,4 +19,7 @@ namespace CommandLineParser
     void print_settings(my_settings &s);
 
     my_settings parse_settings(int argc, char const *argv[]);
+
+    bool operator==(my_settings &, my_settings &);
+    bool operator!=(my_settings &, my_settings &);
 }

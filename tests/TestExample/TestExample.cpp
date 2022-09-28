@@ -1,13 +1,13 @@
 #include "CppUTest/TestHarness.h"
 
-TEST_GROUP(FirstTestGroup){};
+TEST_GROUP(TestExample){};
 
-TEST(FirstTestGroup, FirstTest)
+TEST(TestExample, FirstTest)
 {
     CHECK(true);
 }
 
-TEST(FirstTestGroup, SecondTest)
+TEST(TestExample, SecondTest)
 {
     STRCMP_EQUAL("hello", "hello");
     LONGS_EQUAL(1, 1);

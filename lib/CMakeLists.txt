@@ -1,1 +1,2 @@
 add_subdirectory(CppUTest)
+add_subdirectory(CommandLineParser)

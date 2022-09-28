@@ -14,13 +14,15 @@ add_subdirectory(tests)
 
 add_executable(${PROJECTNAME} 
                 main.cpp
-                ${PROJECT_SOURCE_DIR}/tests/TestExample/TestExample.cpp
+                ${PROJECT_SOURCE_DIR}/tests/TestCommandLineParser/TestCommandLineParser.cpp
 )
 
 target_link_libraries( UnitTests PUBLIC
-                                     CppUTest
+                                    CppUTest
+                                    CommandLineParser
 )
 
 target_include_directories(${PROJECTNAME}  PUBLIC "${PROJECT_SOURCE_DIR}"
                                         "${PROJECT_SOURCE_DIR}/lib/CppUTest/include"
+                                        "${PROJECT_SOURCE_DIR}/lib/CommandLineParser/include"
                                         )
